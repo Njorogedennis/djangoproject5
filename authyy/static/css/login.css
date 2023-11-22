@@ -1,0 +1,101 @@
+html{
+    background-image: url("static/img/hero-bg-2.jpg");
+    background-color: #0e0b0a;
+
+}
+.lgn_title{
+    margin-left: 200px;
+    align-items: center;
+    align-content: center;
+}
+.form {
+    color: #070301;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: auto; /* Center the form horizontally */
+    max-width: 400px; /* Set a maximum width for the form */
+    background-color: #f5530d;
+    height: 80%;
+}
+.signup{
+    margin: 20px;
+    color: #070301;
+    align-self: center;
+    text-align: center;
+}
+.login{
+    align-self: center;
+    text-decoration: #cccccc;
+}
+.btn{
+    background-color: #070301;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 8px; /* Adjust the value for rounded corners */
+    padding: 10px 20px; /* Adjust the values for padding */
+    cursor: pointer;
+    margin-top: 10px; /* Add some space between buttons */
+
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.btn {
+    margin: 0 10px; /* Add space between buttons */
+}
+
+.login-btn{
+    margin-right: 10px;
+
+}
+.lgn_title{
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
+
